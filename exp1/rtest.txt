@@ -1,0 +1,1 @@
+Hello! This is also a test file of Python language
