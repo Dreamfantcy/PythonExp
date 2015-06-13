@@ -23,3 +23,7 @@ str3 = "193.168.1.1"
 print "Split {0} via \".\"".format(str3),string.split(str3,'.')
 words1 = ["Hello","Python","World"]
 print string.join(words1, '-')
+print "|","{:<30}".format("Left Aligned"),"|"
+print "|","{:>30}".format("Right Aligned"),"|"
+print "|","{:^30}".format("Center Aligned"),"|"
+print "|","{:*^30}".format("Center Aligned"),"|"
